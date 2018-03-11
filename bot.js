@@ -65,6 +65,16 @@ client.on("message", async message => {
     m.edit(`**Reboot successfully completed!** :rose: `);
   }
   
+    if(command == "membercount") {
+    const m = await message.channel.send("**ProjectAce** a Revolution")
+    m.edit(` **Members:** ${client.users.size} | **Channels:**  ${client.channels.size} channels | *~ProjectAce a Revolution - Start shopping today!* :shopping_cart: `)
+  }
+
+  if(command == "server") {
+    const m = await message.channel.send("**ProjectAce** a Revolution")
+    m.edit(` **Members:** ${client.users.size} | **Channels:**  ${client.channels.size} channels | *~ProjectAce a Revolution - Start shopping today!* :shopping_cart: `)
+  }
+  
   if(command === "help") {
   const embed = {
     "color": 0x00ffff,
