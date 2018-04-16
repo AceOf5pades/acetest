@@ -30,7 +30,23 @@ client.on("guildDelete", guild => {
   client.user.setGame(`on ${client.guilds.size} servers`);
 });
 
-client.on("guildMemberAdd", member => { member.sendMessage("**Click or tap the image to view in full size**");});
+client.on("guildMemberAdd", member => { member.sendMessage("**:tools: Chat Rules: 
+(1) Do not spam in chat.
+(2) Do not argue in chat, or cause arguments.
+(3) Do not abuse others with your rank you are given.
+(4) Use the channels appropriately.
+(5) Be logical, if you think something will get you banned, don't do it.
+(6) If a player is uncomfortable with the words you are using, please attempt to defer from using them. Deliberately cursing at a player to cause issues or discomfort will result in varying punishment
+(7) Don't post any NSFW/18+ content in any of our chats expect the appropriate NSFW channels
+(8) No talking about DDoS/hacking
+(9) No leaking/talking about other users personal information such as names, address...within chat
+(10) No Private Message advertising. If you have been invited to an unwanted server from one of our members please contact a Moderator+
+
+:speak_no_evil: Voice Channel Rules:
+(1)  Avoid consistent swearing.
+(2)  No racism or bullying towards others.
+(3)  No irritating or unacceptably loud noises/mic spamming which may bother other users.
+(4)  If a user is bothering you a lot in Voice Channel, don't hesitate to right click on the users name and mute them. This will prevent just you from hearing them.**");});
 client.on("message", async message => {
   // This event will run on every single message received, from any channel or DM.
   
