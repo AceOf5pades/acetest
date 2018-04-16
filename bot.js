@@ -30,7 +30,7 @@ client.on("guildDelete", guild => {
   client.user.setGame(`on ${client.guilds.size} servers`);
 });
 
-client.on("guildMemberAdd", member => { member.sendMessage("**:tools: Chat Rules: 
+client.on("guildMemberAdd", member => { member.sendMessage(":tools: Chat Rules: 
 (1) Do not spam in chat.
 (2) Do not argue in chat, or cause arguments.
 (3) Do not abuse others with your rank you are given.
@@ -46,7 +46,7 @@ client.on("guildMemberAdd", member => { member.sendMessage("**:tools: Chat Rules
 (1)  Avoid consistent swearing.
 (2)  No racism or bullying towards others.
 (3)  No irritating or unacceptably loud noises/mic spamming which may bother other users.
-(4)  If a user is bothering you a lot in Voice Channel, don't hesitate to right click on the users name and mute them. This will prevent just you from hearing them.**");});
+(4)  If a user is bothering you a lot in Voice Channel, don't hesitate to right click on the users name and mute them. This will prevent just you from hearing them.");});
 client.on("message", async message => {
   // This event will run on every single message received, from any channel or DM.
   
