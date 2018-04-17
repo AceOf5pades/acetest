@@ -30,7 +30,7 @@ client.on("guildDelete", guild => {
   client.user.setGame(`on ${client.guilds.size} servers`);
 });
 
-client.on("guildMemberAdd", member => { member.sendMessage("**Click or tap the image to view in full size** https://goo.gl/grhBsG");});
+client.on("guildMemberAdd", member => { member.sendMessage("**Click or tap the image to view in full size** https://goo.gl/DS8LTB");});
 client.on("message", async message => {
   // This event will run on every single message received, from any channel or DM.
   
